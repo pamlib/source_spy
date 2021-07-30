@@ -1,3 +1,4 @@
+--// loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/pamlib/source_spy/main/main.lua"))();
 if getgenv()["SimpleSpyExecuted"] and type(getgenv()["SimpleSpyShutdown"]) == "function" then getgenv()["SimpleSpyShutdown"]() end
 local TextService = game:GetService("TextService")
 local RunService = game:GetService("RunService")
